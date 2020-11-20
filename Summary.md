@@ -30,4 +30,14 @@ Lists below.
 | :invalid | Pseudo-class for styling form elements in their invalid state |
 | :required | Pseudo-class for styling form elements that are required |
 
-### 
+### HTML Input Types
+
+| type | type | type | type |
+| --- | --- | --- | --- |
+| button | checkbox | color | date |
+| datetime-local | email | image | hidden |
+| file | month | number | password |
+| radio | range | reset | search |
+|submit | tel | text | url |
+| week |
+
