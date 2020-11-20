@@ -22,3 +22,12 @@ Lists below.
 | selectionEnd | Property that sets or gets the selection end point |
 | setSelectionRange(start, end) | Method that sets the selection start and end points |
 
+### CSS styling pseudo-classes for form elements
+
+| Name | Description |
+| --- | --- |
+| :valid | Pseudo-class for styling form elements in their valid state |
+| :invalid | Pseudo-class for styling form elements in their invalid state |
+| :required | Pseudo-class for styling form elements that are required |
+
+### 
