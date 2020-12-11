@@ -1,5 +1,8 @@
+// Custom placeholder function
+
 function makePlaceholders() {
 	$inputs = $("input[type=text],input[type=email],input[type=tel],input[type=number],input[type=url");
+
 	$inputs.each(
 		function () {
 			var $this = jQuery(this);
@@ -21,6 +24,3 @@ function makePlaceholders() {
 			}
 		});
 }
-
-// killall gpg-agent
-// gpg-agent --daemon
