@@ -26,11 +26,11 @@
 
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/modernizr-custom.js"></script>
-	<script src="js/placeholder.js"></script>
+	<script src="js/placeholder.js"></script> <!-- custom placeholder js file -->
 	<script>
 		$(document).ready(function() {
 			if(!Modernizr.input.placeholder){
-				makePlaceholders();
+				makePlaceholders(); // call to custom function created in placeholder.js file
 			}
 		});
 	</script>
