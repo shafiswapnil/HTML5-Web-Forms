@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pseudo classes for form</title>
+
+	<style>
+		input:valid{ background-color: #ddffdd; }
+		input:invalid{ background-color: #ffdddd; }
+		/* input:required{ background-color: #ff4c4c; border-width: 3px; } */
+	</style>
+</head>
+<body>
+	<h1>Styling form elements for validity and required</h1>
+	<p>Pseudo-Classes:</p>
+	<ul>
+		<li><code>:valid</code></li>
+		<li><code>:invalid</code></li>
+		<li><code>:required</code></li>
+	</ul>
+
+	<form action="">
+		<p>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" placeholder="alinpsw" required>
+		</p>
+		<p>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstname" name="firstname" placeholder="John" required>
+		</p>
+		<p>
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastname" name="lastname" placeholder="Doe" required>
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="abc@abc.com" required>
+		</p>
+		<p>
+			<label for="zip">ZIP Code:</label>
+			<input type="text" id="zip" name="zip" placeholder="5800">
+		</p>
+		<p>
+			<input type="submit" value="Go">
+			<input type="reset">
+		</p>
+	</form>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("input[required]").css("border", "3px solid #ff4c4c");
+		});
+	</script>
+</body>
+</html>

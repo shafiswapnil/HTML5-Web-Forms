@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pattern attribute</title>
+</head>
+<body>
+	<h1>HTML5 Web Form <code>pattern</code></h1>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima nihil porro enim nam voluptatibus dolor consequatur nemo, doloremque aut nulla facilis velit necessitatibus ipsam recusandae iure quae eaque? Laborum, ducimus ad necessitatibus accusamus itaque quo, aliquam voluptatibus, aut sed illo praesentium omnis quibusdam? Aliquid laudantium molestiae eaque ducimus nulla.</p>
+
+	<form action="" method="GET">
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" autofocus placeholder="Hoe Marini">
+		</p>
+		<p>
+			<label for="zip">ZIP Code:</label>
+			<!-- Attention! I could use number email type in here. but I used text to restrict browser warnings -->
+			<input type="text" id="zip" name="zip" pattern="^[0-9]{5}$" title="Enter value between 0-9 within 5 digits" placeholder="32225">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<!-- Attention! I could use number email type in here. but I used text to restrict browser warnings -->
+			<input type="name" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Must be in the following order: abc@abc.domain" placeholder="abc@abc.com">
+		</p>
+		<p>
+			<input type="submit">
+		</p>
+	</form>
+
+	<!-- I didn't added support for pattern attribute. SORRY! -->
+</body>
+</html>
