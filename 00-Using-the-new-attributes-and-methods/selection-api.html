@@ -12,12 +12,18 @@
 	<h2>Using the Text Selection API</h2>
 	<p>This example shows how to use the Text Selection APIs to select ranges of text in &lt;input&gt; and &lt;textarea&gt; fields.</p>
 
-	<p><input type="text" id="" value="The text selection appears here"></p>
+	<p><input type="text" id="textbox" value="The text selection appears here"></p>
 
 	<br>
 
 	<p>Use the two fields below to enter the start and end index of the text to select. Then try using the buttons below to change and view the selection offsets.</p>
 	<p>Selection start: <input type="number" value="3" id="starting"> Selection end: <input type="number" value="13" id="ending"></p>
+
+	<br>
+
+	<p><button onclick="selectText()">Select Text Using Properties</button></p>
+    <p><button onclick="selectText2()">Select Text Using setSelectionRange()</button></p>
+    <p><button onclick="showSelection()">Display Current Selection offsets</button></p>
 
 	<script src="js/selection-api.js"></script>
 </body>
