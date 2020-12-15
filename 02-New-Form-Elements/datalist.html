@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Datalist Element</title>
+</head>
+<body>
+	<h1>Datalist Element</h1>
+
+	<form action="">
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required>
+		</p>
+		<p>
+			<label for="city">Your City:</label>
+			<input list="cities" name="city" id="city">
+
+			<datalist id="cities">
+				<option value="Bogura">
+				<option value="Dhaka">
+				<option value="Cumilla">
+				<option value="Chattogram"></option>
+			</datalist>
+		</p>
+		<p>
+			<input type="submit">
+		</p>
+	</form>
+</body>
+</html>
