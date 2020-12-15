@@ -20,24 +20,30 @@
 	<form action="#">
 		<p>
 			<label for="date">Choose a date:</label>
-			<input type="date" name="date" id="date">
+			<input type="date" name="date" id="date" value="2021-05-06">
+			<span><b>( YYYY-MM-DD )</b></span>
 		</p>
 		<p>
 			<label for="time">Enter e time:</label>
-			<input type="time" name="time" id="time" value="14:30">
-			<input type="time" name="time" id="time" value="14:30" step="3600">
+			<input type="time" name="time" id="time" value="14:30:45">
+			<input type="time" name="time2" id="time2" value="14:30" step="3600">
+			<span><strong># BE CAREFUL IN QUARY STRING</strong></span>
+			<span><b>( HH:MM:SS )</b></span>
 		</p>
 		<p>
 			<label for="datetime">Enter Date and Time:</label>
-			<input type="datetime" name="datetime-local" id="datetime">
+			<input type="datetime-local" name="datetime" id="datetime" value="2021-05-06T13:45">
+			<span><strong>( YYYY-MM-DDTHH:MM:SS )</strong></span>
 		</p>
 		<p>
 			<label for="month">Enter month:</label>
-			<input type="month" name="month" id="month">
+			<input type="month" name="month" id="month" value="2021-05">
+			<span><strong>( YYYY-MM )</strong></span>
 		</p>
 		<p>
 			<label for="week">Enter Week</label>
-			<input type="week" name="weel" id="week">
+			<input type="week" name="weel" id="week" value="2020-W50">
+			<span><strong>( yyyy-Www )</strong> like <i>2020-W50</i></span>
 		</p>
 		<p>
 			<input type="submit">
