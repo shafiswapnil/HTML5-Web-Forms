@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Datetime Input Type</title>
+</head>
+<body>
+	<h1><code>datetime</code> Input type</h1>
+	<p>There are list of datetime inputs</p>
+	<ul>
+		<li><code>&lt;input type="date"&gt;</code></li>
+		<li><code>&lt;input type="time"&gt;</code></li>
+		<li><code>&lt;input type="datetime-local"&gt;</code></li>
+		<li><code>&lt;input type="week"&gt;</code></li>
+		<li><code>&lt;input type="month"&gt;</code></li>
+	</ul>
+	<p><strong>View to source code and make sure you read W3Schools references.</strong></p>
+
+	<form action="#">
+		<p>
+			<label for="date">Choose a date:</label>
+			<input type="date" name="date" id="date" value="2021-05-06">
+			<span><b>( YYYY-MM-DD )</b></span>
+		</p>
+		<p>
+			<label for="time">Enter e time:</label>
+			<input type="time" name="time" id="time" value="14:30:45">
+			<input type="time" name="time2" id="time2" value="14:30" step="3600">
+			<span><strong># BE CAREFUL IN QUARY STRING</strong></span>
+			<span><b>( HH:MM:SS )</b></span>
+		</p>
+		<p>
+			<label for="datetime">Enter Date and Time:</label>
+			<input type="datetime-local" name="datetime" id="datetime" value="2021-05-06T13:45">
+			<span><strong>( YYYY-MM-DDTHH:MM:SS )</strong></span>
+		</p>
+		<p>
+			<label for="month">Enter month:</label>
+			<input type="month" name="month" id="month" value="2021-05">
+			<span><strong>( YYYY-MM )</strong></span>
+		</p>
+		<p>
+			<label for="week">Enter Week</label>
+			<input type="week" name="weel" id="week" value="2020-W50">
+			<span><strong>( yyyy-Www )</strong> like <i>2020-W50</i></span>
+		</p>
+		<p>
+			<input type="submit">
+		</p>
+	</form>
+</body>
+</html>

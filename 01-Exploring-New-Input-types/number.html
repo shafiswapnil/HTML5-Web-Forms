@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Number Input Type</title>
+</head>
+<body>
+	<h1>Number Input type</h1>
+
+	<form action="">
+		<p>
+			<label for="num1">Enter a number:</label>
+			<input type="number" name="num1" id="num1" value="2">
+		</p>
+		<p>
+			<label for="num2">Number field: (MAX and MIN)</label>
+			<span class="notice"><em>between (5-15)</em></span>
+			<input type="number" name="num2" id="num2" max="15" min="5" value="2">
+		</p>
+		<p>
+			<label for="num3">Enter a number: (STEP)</label>
+			<span class="notice"><em>increase by 5 each time</em></span>
+			<input type="number" name="num3" id="num3" step="5" min="0" value="2">
+		</p>
+		<p>
+			<label for="num4">Enter a number: (FRACTION)</label>
+			<input type="number" name="num4" id="num4" min="0.0" max="2.0" step="0.2" value="0.8">
+		</p>
+		<p>
+			<input type="submit">
+		</p>
+	</form>
+</body>
+</html>
