@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meter Element</title>
+</head>
+<body>
+	<h1>Meter Element</h1>
+
+	<form action="">
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" required>
+		</p>
+		<p>
+			<label for="fuel">Fuel level:</label>
+
+			<meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="60">
+				at 60/100
+			</meter>
+		</p>
+		<p>Heat the oven to <meter min="200" max="500" value="350">350 degrees</meter></p>
+	</form>
+</body>
+</html>
