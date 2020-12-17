@@ -13,5 +13,12 @@ Learn more here: [HTML5 Forms: New Controls](https://www.sitepoint.com/html5-for
 
 Thing to remember! ⚠
 
-![Using the progress element](progress_element.png)
+![Using the progress element](img/progress_element.png)
+
+
+## Meter Element
+
+Here also! ⚠
+
+![Using the meter element](img/meter_element.png)
 
