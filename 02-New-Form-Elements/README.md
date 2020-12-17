@@ -22,3 +22,10 @@ Here also! ⚠
 
 ![Using the meter element](img/meter_element.png)
 
+
+# Output Element
+
+Yeap! again ⚠
+
+![Using the output element](img/output_element.png)
+
