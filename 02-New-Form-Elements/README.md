@@ -28,4 +28,3 @@ Here also! ⚠
 Yeap! again ⚠
 
 ![Using the output element](img/output_element.png)
-
