@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Output Element</title>
+</head>
+<body>
+	<h1>Output Element</h1>
+	<p>Let's demonstrate <code>output</code> element by calculating the result of two values.</p>
+
+	<p>
+		<label for="num1">Number 1:</label>
+		<input type="number" name="num1" id="num1" value="0">
+	</p>
+	<p>
+		<label for="num2">Number 2:</label>
+		<input type="number" name="num2" id="num2" value="0">
+	</p>
+	<p>Result: <output name="output" id="result"></output></p>
+
+	<button onclick="calculate()">Perform Calculation</button>
+
+
+	<script>
+		var num1 = document.getElementById("num1");
+		var num2 = document.getElementById("num2");
+		var result = document.getElementById("result");
+
+		function calculate() {
+			result.value = parseFloat(num1.value) + parseFloat(num2.value);
+			// return (parseFloat(num1.value) + parseFloat(num2.value));
+		}
+	</script>
+</body>
+</html>
