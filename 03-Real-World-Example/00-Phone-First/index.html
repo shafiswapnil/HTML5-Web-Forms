@@ -7,5 +7,43 @@
 </head>
 <body>
 	<h1>Phone test</h1>
+
+	<form action="">
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" placeholder="John Doe" required>
+		</p>
+		<p>
+			<label for="number">Number:</label>
+			<input type="number" name="number" id="number" placeholder="9999999">
+		</p>
+		<p>
+			<label for="search">Search Something:</label>
+			<input type="search" name="search" id="search" pattern="[^'\x22]+" title="Invalid input" placeholder="hola amigos">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="abc@abc.co" required>
+		</p>
+		<p>
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required autocomplete="off">
+		</p>
+		<p>
+			<label for="tel">Telephone:</label>
+			<input type="tel" name="tel" id="tel" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{5}" title="Must be in following order: +99(99)9999-99999" placeholder="+99(99)9999-99999">
+		</p>
+		<p>
+			<label for="zip">Zip Code:</label>
+			<input type="text" name="zip" id="zip" placeholder="5800">
+		</p>
+		<p>
+			<label for="url">URL:</label>
+			<input type="url" name="url" id="url" pattern="https?://.+" title="Include http://" placeholder="http://www.google.com">
+		</p>
+		<p>
+			<input type="submit" value="Go">
+		</p>
+	</form>
 </body>
 </html>
